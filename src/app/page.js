@@ -3,7 +3,7 @@ import HowItWorks from './components/HowItWorks';
 import Testimonials from './components/Testimonials';
 import PricingPlans from './components/PricingPlans';
 import Footer from './components/Footer';
-
+import AppDownload from './components/AppDownload';
 export default function Home() {
   return (
     <div>
@@ -52,6 +52,7 @@ export default function Home() {
       <HowItWorks />
       <Testimonials />
       <PricingPlans />
+      <AppDownload/>
       <Footer />
     </div>
   );
